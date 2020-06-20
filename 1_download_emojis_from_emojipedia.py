@@ -17,3 +17,16 @@ def get_emoji_images_from_emojipedia():
 
 	return image_urls
 
+
+def download_emoji(url):
+
+	filename = f'emojis/{url.split("/")[-1]}'
+
+	print(f'downloading {filename}')
+
+	r = requests.get(url)
+	r.raw.decode_content = True
+
+	with open(filename, 'wb') as f:
+		shutil.copyfileobj(r.raw, f)  
+
