@@ -30,3 +30,26 @@ def download_emoji(url):
 	with open(filename, 'wb') as f:
 		shutil.copyfileobj(r.raw, f)  
 
+
+def download_emojis():
+
+	if 'emojis' not in os.listdir():
+		os.mkdir('emojis')
+
+	emoji_urls = get_emoji_images_from_emojipedia()
+
+	emojis_already_downloaded = os.listdir('emojis')
+
+	print(emojis_already_downloaded)
+
+	emoji_urls = [e for e in emoji_urls if (e.split('/')[-1] not in emojis_already_downloaded)]
+
+	for url in emoji_urls:
+		download_emoji(url)
+		time.sleep(2)
+
+
+
+if __name__ == "__main__":
+	download_emojis()
+
