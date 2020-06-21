@@ -24,11 +24,11 @@ def download_emoji(url):
 
 	print(f'downloading {filename}')
 
-	r = requests.get(url)
-	r.raw.decode_content = True
+	r = requests.get(url,stream=True)
 
 	with open(filename, 'wb') as f:
-		shutil.copyfileobj(r.raw, f)  
+		# r.raw.decode_content = True
+		f.write(r.content)
 
 
 def download_emojis():
