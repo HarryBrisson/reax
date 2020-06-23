@@ -46,3 +46,11 @@ def filter_categories_to_minimum(categories,minimum=2):
 		if len(categories[c])>=minimum:
 			new_categories[c] = categories[c]
 	return new_categories
+
+def remove_categories_with_term(categories, term):
+	new_categories = {}
+	for c in categories:
+		if term not in c:
+			new_categories[c] = categories[c]
+	return new_categories
+
