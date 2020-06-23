@@ -39,3 +39,10 @@ def group_emojis(emojis):
 				categories[category] = [e]
 
 	return categories
+
+def filter_categories_to_minimum(categories,minimum=2):
+	new_categories = {}
+	for c in categories:
+		if len(categories[c])>=minimum:
+			new_categories[c] = categories[c]
+	return new_categories
