@@ -54,3 +54,20 @@ def remove_categories_with_term(categories, term):
 			new_categories[c] = categories[c]
 	return new_categories
 
+
+def create_gif_of_images(name,pngs):
+
+	random.shuffle(pngs)
+
+	images = []
+
+	for png in pngs:
+		path = f'emojis/{png}'
+		images.append(imageio.imread(path))
+
+	if 'gifs' not in os.listdir():
+		os.mkdir('gifs')
+
+	imageio.mimsave(f'gifs/{name}.gif', images)
+
+
