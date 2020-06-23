@@ -1,8 +1,9 @@
 
 import os
+import random
 
-emojis = os.listdir('emojis')
-print(emojis)
+import imageio
+
 
 def group_emojis(emojis):
 
@@ -71,3 +72,20 @@ def create_gif_of_images(name,pngs):
 	imageio.mimsave(f'gifs/{name}.gif', images)
 
 
+def main(abolish_the_police=True):
+
+	emojis = os.listdir('emojis')
+	groups = group_emojis(emojis)
+	groups = filter_categories_to_minimum(groups)
+
+	if abolish_the_police:
+		groups = remove_categories_with_term(groups, 'police')
+
+	for g in groups:
+		create_gif_of_images(g,groups[g])
+		
+
+
+
+if __name__ == "__main__":
+	main()
