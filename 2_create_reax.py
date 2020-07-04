@@ -69,7 +69,7 @@ def create_gif_of_images(name,pngs):
 	if 'gifs' not in os.listdir():
 		os.mkdir('gifs')
 
-	imageio.mimsave(f'gifs/{name}.gif', images)
+	imageio.mimsave(f'gifs/{name}.gif', 3, images)
 
 
 def main(abolish_the_police=True):
