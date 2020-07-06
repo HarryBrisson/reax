@@ -1,2 +1,2 @@
 # reax
- generalized, color-cycling slack reacts
+ slack reacts for (a broader range of) humans
