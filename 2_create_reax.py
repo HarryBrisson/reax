@@ -26,10 +26,15 @@ def group_emojis(emojis):
 					.replace('red-hair','').replace('blond-hair','')\
 					.replace('blonde','').replace('blond','')\
 					.replace('black-hair','').replace('white-hair','')\
-					.replace('dancing','dancer').replace('facepalming','facepalm')\
-					.replace('biking','bicyclist')\
-					.replace('person','').replace('child','')\
+					.replace('person','').replace('child','').replace('adult','')\
 					.replace('-','').replace('skintone','')\
+					.replace('dancing','dancer').replace('facepalming','facepalm')\
+					.replace('biking','bicyclist').replace('running','runner')\
+					.replace('shrugging','shrug').replace('golfing','golfer')\
+					.replace('guards','guard').replace('gettinghaircut','haircut')\
+					.replace('swimming','swimmer').replace("weightlifting","weightlifter")\
+					.replace('princess','royal').replace('prince','royal')\
+					.replace('sleuthorspy','sleuth').replace('white','')\
 					.split('_')[0]
 
 			category += "_all"
