@@ -1,7 +1,7 @@
 # reax
  slack reacts for (a broader range of) humans
 
-** this was a mini-hackathon project completed on Juneteenth & Independence Day weekends in 2020 **
+*this was a mini-hackathon project completed on Juneteenth & Independence Day weekends in 2020*
 
 ### challenges
 when reacting on Slack, occasionally folx get into the challenge where they don't want to appropriate the ethnicity of another person.  some people don't strongly identify with a race and/or gender.  the hope with `reax` is to provide an alternative to white-as-default (or yellow-as-default aka pseudo-white-as-default) that creates a more inclusive environment on Slack.
