@@ -7,7 +7,7 @@
 when reacting on Slack, occasionally folx get into the challenge where they don't want to appropriate the ethnicity of another person.  some people don't strongly identify with a race and/or gender.  the hope with `reax` is to provide an alternative to white-as-default (or yellow-as-default aka pseudo-white-as-default) that creates a more inclusive environment on Slack.
 
 ### download
-you can download the emojis in the gifs folder; I intend to eventually upload them elsewhere as well.
+you can download the emojis in the gifs folder (or [this zip file](gifs.zip)); I intend to eventually upload them elsewhere as well.  if you want to upload them all, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej))
 
 
 ### more ideas
