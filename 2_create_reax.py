@@ -13,7 +13,6 @@ def group_emojis(emojis):
 	for e in emojis:
 
 		if 'skin-tone' in e or 'emoji-modifier' in e or 'type' in e:
-			print(e)
 
 			category = e.replace('woman','person').replace('man','person')\
 					.replace('female','').replace('male','')\
@@ -83,7 +82,6 @@ def gen_frame(path):
 
 def create_gif_of_images_alt(name,pngs):
 	frames = [gen_frame(f'emojis/{png}') for png in pngs]  
-	print(frames[0])
 	frames[0].save(f'gifs/{name}.gif', save_all=True, append_images=frames[1:], loop=0, disposal=2, duration=200)
 
 
@@ -113,9 +111,9 @@ def main(abolish_the_police=True):
 		groups = remove_categories_with_term(groups, 'police')
 
 	for g in groups:
+		(print(g))
 		try:
 			create_gif_of_images_alt(g,groups[g])
-			return
 		except Exception as e:
 			print(f'could not create for {g}: {e}')
 		
