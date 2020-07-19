@@ -9,7 +9,7 @@ when reacting on Slack, occasionally folx get into the challenge where they don'
 ### how to use them
 1. you can download individual emojis below (or [download this zip file of all of them](gifs.zip))
 2. when visiting your workspace's "customize emoji" page (ie., [insert your channel name here].slack.com/customize/emoji), just find the gif and upload
-3. (optional) if you want to upload them all at once, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)) 
+3. (optional) if you want to upload them all at once, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)
 
 ### the gifs
 ![parentchristmas_all.gif](gifs/parentchristmas_all.gif)
