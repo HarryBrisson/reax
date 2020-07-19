@@ -30,7 +30,7 @@ while my hope is that this project can make real progress in better representing
 ![breastfeeding_all.gif](gifs/breastfeeding_all.gif)
 ![pedestrian_all.gif](gifs/pedestrian_all.gif)
 ![factoryworker_all.gif](gifs/factoryworker_all.gif)
-![pouting_all.gif](gifs/poutingface_all.gif)
+![pouting_all.gif](gifs/pouting_all.gif)
 ![leftfacingfist_all.gif](gifs/leftfacingfist_all.gif)
 ![pregnant_all.gif](gifs/pregnant_all.gif)
 ![_all.gif](gifs/_all.gif)
