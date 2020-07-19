@@ -113,7 +113,11 @@ def main(abolish_the_police=True):
 		groups = remove_categories_with_term(groups, 'police')
 
 	for g in groups:
-		create_gif_of_images(g,groups[g])
+		try:
+			create_gif_of_images_alt(g,groups[g])
+			return
+		except Exception as e:
+			print(f'could not create for {g}: {e}')
 		
 
 
