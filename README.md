@@ -3,20 +3,21 @@
 
 *a mini-hackathon project from Juneteenth & Independence Day weekends in 2020*
 
-### challenges
+### why reax?
 when reacting on Slack, occasionally folx get into the challenge where they don't want to appropriate the ethnicity of another person.  some people don't strongly identify with a race and/or gender.  the hope with `reax` is to provide an alternative to white-as-default (or yellow-as-default aka pseudo-white-as-default) that creates a more inclusive environment on Slack.
 
-### download
-you can download the emojis in the gifs folder (or [this zip file](gifs.zip)); I intend to eventually upload them elsewhere as well.  if you want to upload them all, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej))
+### how to use them
+1. you can download individual emojis below (or [download this zip file of all of them](gifs.zip))
+2. when visiting your workspace's "customize emoji" page (ie., [insert your channel name here].slack.com/customize/emoji), just find the gif and upload
+3. (optional) if you want to upload them all at once, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)) 
 
 ### more ideas
 * sequence race and ethnicity in animations more deliberately (currently random) perhaps by bringing most marginalized groups to the front, a la "BIPOC".
-* use transitions to capture more than just the 5 default skintones.
+* use PIL's blend function to capture more than just the 5 default skintones.
 * generate these reacts for emoji libraries that aren't iOS (perhaps [openmoji](https://openmoji.org/)?).
 
-
 ### note
-while my hope is that this project can make real progress in better representing communities of color and non-binary communities in Slack reactions, serious problems like police violence and economic inequality require policy solutions.  a list of BLM partners you can donate to is found [here](https://blacklivesmatter.com/partners/).  symbolic change is not a substitute for deep systemic change.  I will continue to self-educate and try to identify more meaningful ways to elevate the voices of marginalized communities.
+while my hope is that this project can make real progress in better representing communities of color and non-binary communities in Slack reactions, serious problems like police violence and economic inequality require policy solutions.  a list of BLM partners you can donate to is found [here](https://blacklivesmatter.com/partners/).  symbolic change is not a substitute for deep systemic change.  I will continue to self-educate and try to identify more meaningful ways to elevate the voices of marginalized communities.  also, people should still feel comfortable (and proud) of using their own skintone when reacting, this is just another option for folx!
 
 ### the gifs
 ![parentchristmas_all.gif](gifs/parentchristmas_all.gif)
