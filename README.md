@@ -11,14 +11,6 @@ when reacting on Slack, occasionally folx get into the challenge where they don'
 2. when visiting your workspace's "customize emoji" page (ie., [insert your channel name here].slack.com/customize/emoji), just find the gif and upload
 3. (optional) if you want to upload them all at once, I was able to do that quickly using [this bulk emoji uploader Chrome extension](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej)) 
 
-### more ideas
-* sequence race and ethnicity in animations more deliberately (currently random) perhaps by bringing most marginalized groups to the front, a la "BIPOC".
-* use PIL's blend function to capture more than just the 5 default skintones.
-* generate these reacts for emoji libraries that aren't iOS (perhaps [openmoji](https://openmoji.org/)?).
-
-### note
-while my hope is that this project can make real progress in better representing communities of color and non-binary communities in Slack reactions, serious problems like police violence and economic inequality require policy solutions.  a list of BLM partners you can donate to is found [here](https://blacklivesmatter.com/partners/).  symbolic change is not a substitute for deep systemic change.  I will continue to self-educate and try to identify more meaningful ways to elevate the voices of marginalized communities.  also, people should still feel comfortable (and proud) of using their own skintone when reacting, this is just another option for folx!
-
 ### the gifs
 ![parentchristmas_all.gif](gifs/parentchristmas_all.gif)
 ![leftpointingbackhandindex_all.gif](gifs/leftpointingbackhandindex_all.gif)
@@ -151,3 +143,12 @@ while my hope is that this project can make real progress in better representing
 ![pinchinghand_all.gif](gifs/pinchinghand_all.gif)
 ![elf_all.gif](gifs/elf_all.gif)
 ![uppointingbackhandindex_all.gif](gifs/uppointingbackhandindex_all.gif)
+
+
+### more ideas
+* sequence race and ethnicity in animations more deliberately (currently random) perhaps by bringing most marginalized groups to the front, a la "BIPOC".
+* use PIL's blend function to capture more than just the 5 default skintones.
+* generate these reacts for emoji libraries that aren't iOS (perhaps [openmoji](https://openmoji.org/)?).
+
+### note on limitations of this project (aka: please donate if you can!)
+while my hope is that this project can make real progress in better representing communities of color and non-binary communities in Slack reactions, serious problems like police violence and economic inequality require policy solutions.  a list of BLM partners you can donate to is found [here](https://blacklivesmatter.com/partners/).  symbolic change is not a substitute for deep systemic change.  I will continue to self-educate and try to identify more meaningful ways to elevate the voices of marginalized communities.  also, people of color should still feel comfortable (and proud) of using their own skintone when reacting on Slack, this is just another option!
