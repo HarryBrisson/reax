@@ -22,7 +22,7 @@ def group_emojis(emojis):
 					.replace('-type-4','').replace('-type-5','').replace('-type-6','')\
 					.replace('medium-light-','').replace('medium-dark-','')\
 					.replace('dark-','').replace('light-','').replace('medium-','')\
-					.replace('haired','hair')\
+					.replace('haired','hair').replace('with','')\
 					.replace('red-hair','').replace('blond-hair','')\
 					.replace('blonde','').replace('blond','')\
 					.replace('black-hair','').replace('white-hair','')\
@@ -35,6 +35,8 @@ def group_emojis(emojis):
 					.replace('swimming','swimmer').replace("weightlifting","weightlifter")\
 					.replace('princess','royal').replace('prince','royal')\
 					.replace('sleuthorspy','sleuth').replace('white','')\
+					.replace('informationdesk','tippinghand')\
+					.replace('father','parent').replace('mother','parent')\
 					.split('_')[0]
 
 			category += "_all"
