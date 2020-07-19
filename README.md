@@ -36,7 +36,6 @@ while my hope is that this project can make real progress in better representing
 ![withturban_all.gif](gifs/withturban_all.gif)
 ![pouting_all.gif](gifs/pouting_all.gif)
 ![pregnant_all.gif](gifs/pregnant_all.gif)
-![.DS_Store](gifs/.DS_Store)
 ![_all.gif](gifs/_all.gif)
 ![dancer_all.gif](gifs/dancer_all.gif)
 ![bearded_all.gif](gifs/bearded_all.gif)
