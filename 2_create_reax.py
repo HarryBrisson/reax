@@ -35,7 +35,7 @@ def group_emojis(emojis):
 					.replace('swimming','swimmer').replace("weightlifting","weightlifter")\
 					.replace('princess','royal').replace('prince','royal')\
 					.replace('sleuthorspy','sleuth').replace('white','')\
-					.replace('informationdesk','tippinghand')\
+					.replace('informationdesk','tippinghand').replace('poutingface','pouting')\
 					.replace('father','parent').replace('mother','parent')\
 					.split('_')[0]
 
